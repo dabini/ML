@@ -10,7 +10,7 @@
 
 
 
-![image-20200308191408413](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308191408413.png)
+![image-20200308191408413](image-20200308191408413.png)
 
 ​	맨 끝에 갈수록 w값을 학습하질 못함
 
@@ -25,7 +25,7 @@
 
 
 
-![image-20200308191622194](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308191622194.png)
+![image-20200308191622194](image-20200308191622194.png)
 
 ​	relu가 sigmoid보다 효율젇
 
@@ -37,13 +37,13 @@
 
 - weight의 초기값을 0으로 설정한 경우
 
-  ![image-20200308191936480](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308191936480.png)
+  ![image-20200308191936480](image-20200308191936480.png)
 
   => weight을 학습할 수 없는 형태가 됨
 
-![image-20200308192132731](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308192132731.png)
+![image-20200308192132731](image-20200308192132731.png)
 
-![image-20200308192739429](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308192739429.png)
+![image-20200308192739429](image-20200308192739429.png)
 
 <img src="C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308192802617.png" alt="image-20200308192802617" style="zoom:80%;" />
 
@@ -65,7 +65,7 @@
 
   이러한 RBM을 사용한 네트워크를 DBN(Deep Belief Networks)라고 함
 
-![image-20200308193552187](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308193552187.png)
+![image-20200308193552187](image-20200308193552187.png)
 
 ​	입력값을 weight와 곱해서 b값을 얻어냄
 
@@ -73,11 +73,7 @@
 
 ​	이러한 과정을 Forward라고 함
 
-
-
-​	<img src="C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308193742701.png" alt="image-20200308193742701" style="zoom:100%;" />
-
-
+<img src="image-20200308193742701-1591627238588.png" alt="image-20200308193742701" style="zoom:100%;">
 
 backward방법으로 얻은 값들과 weight을 통해 b의 값을 얻음
 
@@ -95,7 +91,7 @@ backward방법으로 얻은 값들과 weight을 통해 b의 값을 얻음
 - Example: Deep Belief Network
   - weight initialized by RBM
 
-![image-20200308194122876](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200308194122876.png)
+![image-20200308194122876](image-20200308194122876.png)
 
 
 

@@ -6,7 +6,7 @@
 
 #### 1) XOR data set
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304222946693.png)
+![](image-20200304222946693.png)
 
 
 
@@ -56,15 +56,15 @@ with tf.Session() as sess:
 
 - 결과
 
-<img src="C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304223514144.png" style="zoom:200%;" />
+<img src="image-20200304223514144.png" style="zoom:200%;" />
 
 correct에서 0 1 1 0 이 나와야하는데 1 1 1 1이 나왔기 때문에 Accuracy가 0.5임
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304223636587.png)
+![](image-20200304223636587.png)
 
 7000번 돌렸을 때  cost도 줄어들고 Accuracy도 증가
 
-![image-20200304223704541](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304223704541.png)
+![image-20200304223704541](image-20200304223704541.png)
 
 10000번 돌렸을 때 cost값이 급격하게 줄어들었으며, Accuracy 100% 달성
 
@@ -117,7 +117,7 @@ with tf.Session() as sess:
                  "\nAccuracy: ", a)
 ```
 
-![image-20200304223958068](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304223958068.png)
+![image-20200304223958068](image-20200304223958068.png)
 
 
 
@@ -127,9 +127,9 @@ with tf.Session() as sess:
 
 layer1 역시 7개의 입력값
 
-![image-20200304224147087](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304224147087.png)
+![image-20200304224147087](image-20200304224147087.png)
 
-![image-20200304224157910](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304224157910.png)
+![image-20200304224157910](image-20200304224157910.png)
 
 layer가 하나임에도 불구하고 그 안에 들어가든 히든 레이어가 많기 때문에 가능..
 
@@ -189,7 +189,7 @@ with tf.Session() as sess:
 
 - 결과값
 
-![image-20200304224511814](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304224511814.png)
+![image-20200304224511814](image-20200304224511814.png)
 
  만 번을 돌렸을 때 cost가 아주 낮은 것을 확인할 수 있음.
 
@@ -211,7 +211,7 @@ hypothesis = tf.sigmoid(tf.matmul(layer1, W2)+ b2)
 
 
 
-![image-20200304224904327](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304224904327.png)
+![image-20200304224904327](image-20200304224904327.png)
 
 
 
@@ -219,7 +219,7 @@ hypothesis = tf.sigmoid(tf.matmul(layer1, W2)+ b2)
 
 - Layer를 더 깊게 만들어서 예측율을 높이는 또 다른 방법
 
-![image-20200304224913300](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304224913300.png)
+![image-20200304224913300](image-20200304224913300.png)
 
 ``` python
 W1 = tf.Variable(tf.random_norma([2, 10]), name = 'weight1')

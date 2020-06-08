@@ -43,15 +43,15 @@ with tf.Session() as sess:
 
 - 0번째
 
-  ![image-20200305221116243](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305221116243.png)
+  ![image-20200305221116243](image-20200305221116243.png)
 
 - 7000번째
 
-  ![image-20200305221141874](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305221141874.png)
+  ![image-20200305221141874](image-20200305221141874.png)
 
 - 10000번째
 
-  ![image-20200305221203246](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305221203246.png)
+  ![image-20200305221203246](image-20200305221203246.png)
 
   
 
@@ -59,19 +59,19 @@ with tf.Session() as sess:
 
 1. TensorBoard: TF logging/debugging tool
 
-   ![](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbM9oQy%2FbtqzEgHSARC%2FSBIA5UKCWNWKyWHn36jD60%2Fimg.png)
+   ![](download.png)
 
 
 
 2. Old fashion : print, print, print
 
-   ![image-20200305221431793](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305221431793.png)
+   ![image-20200305221431793](image-20200305221431793.png)
 
    
 
 3. New way!
 
-   ![image-20200305221554609](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305221554609.png)
+   ![image-20200305221554609](image-20200305221554609.png)
 
    2000번 정도만 학습시켜도 낮은 cost로 학습이 가능
 
@@ -148,7 +148,7 @@ with tf.Session() as sess:
 
    
 
-   ![image-20200305222236269](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305222236269.png)
+   ![image-20200305222236269](image-20200305222236269.png)
 
    => run이 될때마다 하나의 그래프에 저장되어 나타남
 
@@ -156,7 +156,7 @@ with tf.Session() as sess:
 
 2. Histogram(multi-dimensional tensors)
 
-![image-20200305222345753](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305222345753.png)
+![image-20200305222345753](image-20200305222345753.png)
 
 ### 
 
@@ -199,7 +199,7 @@ hypothesis_hist = tf.summary.histogram("hypothesis", hypothesis)
 
    
 
-![image-20200305223204533](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305223204533.png)
+![image-20200305223204533](image-20200305223204533.png)
 
 
 
@@ -254,11 +254,11 @@ hypothesis_hist = tf.summary.histogram("hypothesis", hypothesis)
 
    
 
-![image-20200305224433765](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305224433765.png)
+![image-20200305224433765](image-20200305224433765.png)
 
 
 
-![image-20200305224612606](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305224612606.png)
+![image-20200305224612606](image-20200305224612606.png)
 
 
 
@@ -266,13 +266,13 @@ hypothesis_hist = tf.summary.histogram("hypothesis", hypothesis)
 
    > learing_rate = 0.1 VS learning_rate = 0.01
 
-   ![image-20200305224745433](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305224745433.png)
+   ![image-20200305224745433](image-20200305224745433.png)
 
    
 
    
 
-   ![image-20200305224941125](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305224941125.png)
+   ![image-20200305224941125](image-20200305224941125.png)
 
    logs/0.1
 
@@ -282,5 +282,5 @@ hypothesis_hist = tf.summary.histogram("hypothesis", hypothesis)
 
    
 
-![image-20200305225336643](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200305225336643.png)
+![image-20200305225336643](image-20200305225336643.png)
 

@@ -6,7 +6,7 @@
 
 #### 1) How to train?
 
-![image-20200307154636640](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307154636640.png)
+![image-20200307154636640](image-20200307154636640.png)
 
 
 
@@ -20,7 +20,7 @@
 
 #### 3) Tensorflow
 
-![image-20200307154820571](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307154820571.png)
+![image-20200307154820571](image-20200307154820571.png)
 
 ``` python
 train = tf.train.GradientDescentOptimizer(learning_rate = 0.1).minimize(cost)
@@ -35,7 +35,7 @@ train = tf.train.GradientDescentOptimizer(learning_rate = 0.1).minimize(cost)
 
 
 
-![image-20200307154942943](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307154942943.png)
+![image-20200307154942943](image-20200307154942943.png)
 
 최종적으로 w가 f값에 어떤 영향을 미치는 지를 알기위해서는 미분을 해서 값을 구하는 backward 방법이 필요
 
@@ -43,31 +43,31 @@ train = tf.train.GradientDescentOptimizer(learning_rate = 0.1).minimize(cost)
 
 #### 5) Logistic Regression Network
 
-![image-20200307155227978](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307155227978.png)
+![image-20200307155227978](image-20200307155227978.png)
 
 
 
 #### 6) Network
 
-![image-20200307155249703](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307155249703.png)
+![image-20200307155249703](image-20200307155249703.png)
 
 ​										a0 = 0.1, t = 0, w= 0.1, b= 0.3
 
-​										![image-20200307155737274](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307155737274.png)
+​										![image-20200307155737274](image-20200307155737274.png)
 
 => Back propagation!
 
-![image-20200307155950731](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307155950731.png)
+![image-20200307155950731](image-20200307155950731.png)
 
-![image-20200307160120811](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307160120811.png)
+![image-20200307160120811](image-20200307160120811.png)
 
-![image-20200307160831850](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307160831850.png)
+![image-20200307160831850](image-20200307160831850.png)
 
 
 
-<img src="C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307160847631.png" alt="image-20200307160847631" style="zoom:80%;" />
+<img src="image-20200307160847631.png" alt="image-20200307160847631" style="zoom:80%;" />
 
-![image-20200307160938817](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307160938817.png)
+![image-20200307160938817](image-20200307160938817.png)
 
 
 

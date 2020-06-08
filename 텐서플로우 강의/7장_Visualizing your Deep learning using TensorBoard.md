@@ -72,13 +72,13 @@ X_image = tf.reshape(X, [-1, 28, 28, 1]) #좌표
 tf.summary.image('input', x_image, 3) #세개의 이미지
 ```
 
-![image-20200307152719386](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307152719386.png)
+![image-20200307152719386](image-20200307152719386.png)
 
 
 
 #### 2) Histogram (multi-dimensional tensors)
 
-![image-20200307152757635](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307152757635.png)
+![image-20200307152757635](image-20200307152757635.png)
 
 세로축에는 학습횟수가 들어감
 
@@ -111,7 +111,7 @@ with tf.variable_Scope("layer1") as scope:
 tf.summary.scalar("loss", cost)
 ```
 
-![image-20200307153500724](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307153500724.png)
+![image-20200307153500724](image-20200307153500724.png)
 
 
 
@@ -136,7 +136,7 @@ with tf.variable_Scope("layer3") as scope:
     ...
 ```
 
-![image-20200307153608931](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307153608931.png)
+![image-20200307153608931](image-20200307153608931.png)
 
 
 
@@ -198,5 +198,5 @@ tensorboard --logdir=/tmp/mnist_logs
 
 
 
-![image-20200307154330304](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200307154330304.png)
+![image-20200307154330304](image-20200307154330304.png)
 

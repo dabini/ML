@@ -4,7 +4,7 @@
 
 ### 1) XOR using NN
 
-![](https://i.ytimg.com/vi/kNPGXgzxoHw/maxresdefault.jpg)
+![](maxresdefault.jpg)
 
 
 
@@ -61,7 +61,7 @@ with tf.Session() as sess:
 
 - 결과
 
-  ![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304002843119.png)
+  ![](image-20200304002843119.png)
 
   > 10000번까지 실행을 해도 cost나 weight나 bias의 경우에는 변화가 없음
   >
@@ -73,11 +73,11 @@ with tf.Session() as sess:
 
 - 하나의 모델이 아닌 2개, 3개, 다수의 모델을 이용하면 가능하다
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304003118767.png)
+![](image-20200304003118767.png)
 
 
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304003739396.png)
+![](image-20200304003739396.png)
 
 => 3개의 모델을 활용하여 XOR 문제 해결
 
@@ -85,7 +85,7 @@ with tf.Session() as sess:
 
 #### 1) XOR data set
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304003904253.png)
+![](image-20200304003904253.png)
 
 Y_모형은 -OR gate
 
@@ -97,19 +97,19 @@ y2 모형은 -OR gate
 
 #### 3. Forward propagation
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304222556391.png)
+![](image-20200304222556391.png)
 
 ​				         입력레이어 	  	   히든레이어 			 출력레이어
 
 
 
-![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304222702730.png)
+![](image-20200304222702730.png)
 
 ​							입력 레이어를 매트릭스 형태로 만듬
 
 ​								=> 다중회귀분석모형과 비슷한 형태
 
-​		![](C:\Users\jdb96\AppData\Roaming\Typora\typora-user-images\image-20200304222750526.png)
+​		![](image-20200304222750526.png)
 
 
 
