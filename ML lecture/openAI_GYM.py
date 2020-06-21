@@ -1,0 +1,10 @@
+import sys
+sys.path.append('c:\python38\lib\site-packages')
+import gym
+
+env = gym.make("FrozenLake-v0")
+observation = env.reset()
+for _ in range(1000):
+    env.render()
+    action = env.action_space.sample()
+    observation, reward, done, info = env.step(action)
