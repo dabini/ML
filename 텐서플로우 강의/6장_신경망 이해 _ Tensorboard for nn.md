@@ -154,7 +154,7 @@ with tf.Session() as sess:
 
 
 
-2. Histogram(multi-dimensional tensors)
+2. Histogram(multi-dimensional tensors) 
 
 ![image-20200305222345753](image-20200305222345753.png)
 
