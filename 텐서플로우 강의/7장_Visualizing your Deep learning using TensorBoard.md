@@ -200,3 +200,7 @@ tensorboard --logdir=/tmp/mnist_logs
 
 ![image-20200307154330304](image-20200307154330304.png)
 
+
+
+2번
+
